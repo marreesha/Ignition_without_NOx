@@ -64,7 +64,7 @@ solvers
     Ii
     {
         solver                  GAMG;
-        tolerance               1e-5;
+        tolerance               1e-6;
         relTol                  0;
         smoother                symGaussSeidel;
         cacheAgglomeration      true;
